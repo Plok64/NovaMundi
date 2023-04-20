@@ -1,0 +1,31 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "firebase-admin": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  }
+}
